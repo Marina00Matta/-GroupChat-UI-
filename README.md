@@ -1,12 +1,35 @@
-# -GroupChat-UI-
-Client/Server group chat application implemented with Java 
+# Group Chat UI
 
-to run these files.
-you should download first the client.java/ server.java files.
-first you should compile "Server.java" file on a terminal if you are on ubuntu or cmd if you are a windows user by this command "javac Server.java"
-and then run the same file by using this command "Server.java"
-then compile "Client.java" and run it by this comman "java Client" on TWO different terminals.
-it will ask for a username ex: enter user 1/ user 2
-now you have three terminal one for the server and two for the clients. 
-you can chit chat now, and you can open many windows..
-voilaa..
+Client/Server group chat application implemented in Java.
+
+## Build the application
+
+After cloning the repo, should build `Server.java` and `Client.java`, then run them.
+
+```bash
+javac Server.java
+javac Client.java
+```
+
+Two Classes are produced from the build process which will be used during run.
+
+## Run the application
+
+To try the application, you can create two clients and connect them to the server as follows:
+
+> To view the application properly, use 3 different terminals one for each client and one for the server applications.
+
+### Run the Server
+
+```bash
+java Server
+```
+
+### Run the Client 
+
+Do the following for each client:
+
+```bash
+java Client
+username ex: <username>
+```
